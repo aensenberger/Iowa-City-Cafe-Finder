@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find study-friendly coffee shops in Iowa City with our fictional student guide to cozy seating, Wi-Fi, outlets, and quiet spaces.">
+  <title>Iowa City Cafe Finder | Find Your Study Spot</title>
+  <style>
+    :root {
+      --coffee: #553b2b;
+      --cream: #fbf6ed;
+      --tan: #e8d7c3;
+      --green: #496653;
+      --text: #302820;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .notice {
+      background: #f1e5d5;
+      padding: 12px 6%;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    header {
+      background: var(--coffee);
+      color: white;
+      padding: 25px 6%;
+    }
+    .brand { font-size: 1.7rem; font-weight: bold; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 15px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover, nav a:focus { text-decoration: underline; }
+    main { max-width: 1000px; margin: auto; padding: 32px 6%; }
+    .hero {
+      background: var(--tan);
+      border-radius: 16px;
+      padding: 35px;
+      margin-bottom: 30px;
+    }
+    h1, h2, h3 { color: var(--coffee); line-height: 1.25; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin-top: 0; }
+    .button {
+      display: inline-block;
+      background: var(--green);
+      color: white;
+      padding: 11px 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      border: 1px solid var(--tan);
+      border-radius: 12px;
+      padding: 22px;
+    }
+    .tag { color: var(--green); font-weight: bold; font-size: 0.9rem; }
+    footer {
+      background: var(--coffee);
+      color: white;
+      text-align: center;
+      padding: 24px 6%;
+      margin-top: 35px;
+      overflow-wrap: anywhere;
+    }
+    footer a { color: white; }
+    footer .notice { background: transparent; padding: 12px 0 0; }
+    footer .notice p { margin-bottom: 0; }
+    @media (max-width: 500px) {
+      .hero { padding: 24px 20px; }
+      nav { gap: 10px 16px; }
+      main { padding-top: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">
+    This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+  </div>
+
+  <header>
+    <div class="brand">Iowa City Cafe Finder</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="study-coffee-shops.html">Best Study Cafes</a>
+      <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a>
+      <a href="quiet-cafes.html">Quiet Cafes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">YOUR NEXT FAVORITE STUDY SPOT</p>
+      <h1>Find your study spot in Iowa City.</h1>
+      <p>Need a place to review lecture notes, finish a group project, or get through a long study session? Our student-focused guide helps you choose a coffee shop based on the atmosphere and amenities that matter to you.</p>
+      <p>Explore fictional local cafes, compare study features, and find the kind of space that fits your day.</p>
+      <a class="button" href="study-coffee-shops.html">Explore study cafes</a>
+    </section>
+
+    <section>
+      <h2>What kind of study space do you need?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Best Study Cafes</h3>
+          <p>Compare three imagined cafes for long study sessions, comfortable seating, and a productive atmosphere.</p>
+          <a href="study-coffee-shops.html">Explore study-friendly cafes</a>
+        </article>
+        <article class="card">
+          <h3>Wi-Fi and Outlets</h3>
+          <p>Find cafes designed for laptop work, online assignments, and keeping your devices charged.</p>
+          <a href="wifi-outlets.html">Explore connected cafes</a>
+        </article>
+        <article class="card">
+          <h3>Quiet Cafes</h3>
+          <p>Look for calmer spaces for reading, writing papers, and preparing for exams.</p>
+          <a href="quiet-cafes.html">Explore quieter cafes</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>A better cafe search starts here</h2>
+      <p>Every student studies differently. Some need a little background conversation, while others want a quiet corner and a nearby outlet. Start with your priorities, then explore the pages that match your needs.</p>
+      <p>Our cafe profiles are fictional examples created for a digital marketing class. They are not verified recommendations for real businesses.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Iowa City Cafe Finder</strong> | A student-focused study cafe guide</p>
+    <p><a href="index.html">Home</a> · <a href="study-coffee-shops.html">Best Study Cafes</a> · <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a> · <a href="quiet-cafes.html">Quiet Cafes</a></p>
+    <div class="notice">
+      <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    </div>
+  </footer>
+</body>
+</html>
