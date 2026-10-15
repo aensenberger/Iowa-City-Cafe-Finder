@@ -4,94 +4,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore fictional study-friendly coffee shops in Iowa City and compare seating, atmosphere, and features for productive student study sessions.">
-  <title>Best Coffee Shops to Study in Iowa City | Cafe Finder</title>
+  <meta name="description" content="Compare fictional Iowa City study cafes by seating, atmosphere, prices, and space to work.">
+  <title>Best Coffee Shops to Study in Iowa City | Study Sip</title>
   <style>
-    :root { --coffee:#553b2b; --cream:#fbf6ed; --tan:#e8d7c3; --green:#496653; --text:#302820; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Arial,sans-serif; background:var(--cream); color:var(--text); line-height:1.7; }
-    .notice { background:#f1e5d5; padding:12px 6%; font-size:.85rem; text-align:center; }
-    header { background:var(--coffee); color:white; padding:25px 6%; }
-    .brand { font-size:1.7rem; font-weight:bold; }
-    nav { display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:15px; }
-    nav a { color:white; text-decoration:none; font-weight:bold; }
-    nav a:hover, nav a:focus { text-decoration:underline; }
-    main { max-width:1000px; margin:auto; padding:32px 6%; }
-    h1,h2,h3 { color:var(--coffee); line-height:1.3; }
-    .intro { background:var(--tan); padding:28px; border-radius:14px; margin-bottom:25px; }
-    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:18px; }
-    .card { background:white; border:1px solid var(--tan); border-radius:12px; padding:22px; }
-    .tag { color:var(--green); font-weight:bold; }
-    .tip { border-left:4px solid var(--green); padding:12px 18px; background:white; margin:25px 0; }
-    footer { background:var(--coffee); color:white; text-align:center; padding:24px 6%; margin-top:35px; overflow-wrap:anywhere; }
-    footer a { color:white; }
-    footer .notice { background:transparent; padding:12px 0 0; }
-    footer .notice p { margin-bottom:0; }
-    @media(max-width:500px) { .intro { padding:22px 18px; } nav { gap:10px 16px; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #302820; background: #faf7f2; }
+    .notice { background: #eee5d8; padding: 12px 5%; font-size: 13px; text-align: center; }
+    header { background: #493629; color: white; padding: 22px 5%; }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin: 4px 0 0; color: #f0dfcb; }
+    nav { background: #e7d7c3; padding: 12px 5%; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+    nav a { color: #493629; font-weight: bold; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 1000px; margin: auto; padding: 32px 20px; }
+    h2, h3 { color: #65452f; }
+    .intro { background: #efe2d1; padding: 25px; border-radius: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin: 22px 0; }
+    .card { background: white; border: 1px solid #e5d8c9; border-radius: 10px; padding: 20px; }
+    .card h3 { margin-top: 0; }
+    .tag { display: inline-block; background: #eee5d8; padding: 4px 9px; border-radius: 12px; font-size: 13px; }
+    a { color: #65452f; }
+    footer { background: #493629; color: white; text-align: center; padding: 20px 5%; font-size: 13px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 25px; }
+      nav { gap: 10px 16px; }
+      main { padding: 22px 15px; }
+    }
   </style>
 </head>
 <body>
   <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 
   <header>
-    <div class="brand">Iowa City Cafe Finder</div>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="study-coffee-shops.html">Best Study Cafes</a>
-      <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a>
-      <a href="quiet-cafes.html">Quiet Cafes</a>
-    </nav>
+    <h1>Study Sip</h1>
+    <p>Your guide to finding a great Iowa City study café.</p>
   </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="best-study-coffee-shops.html">Best Study Cafés</a>
+    <a href="wifi-and-outlets.html">Wi-Fi &amp; Outlets</a>
+    <a href="quiet-coffee-shops.html">Quiet Cafés</a>
+  </nav>
 
   <main>
     <section class="intro">
-      <p class="tag">STUDENT STUDY GUIDE</p>
-      <h1>Best Coffee Shops to Study in Iowa City</h1>
-      <p>Finding a good study spot can make a long assignment feel more manageable. The best coffee shops to study in Iowa City would offer comfortable seating, enough room for your materials, and an atmosphere that helps you focus.</p>
-      <p>Use these fictional cafe profiles to compare different study environments and decide which features fit your routine.</p>
+      <h2>Best Coffee Shops to Study in Iowa City</h2>
+      <p>The best study café depends on how you like to work. Some students need a spacious table for a group project, while others prefer a comfortable seat and a warm drink for an afternoon of reading. This guide compares fictional café profiles to help students understand which features matter most when choosing a place to study.</p>
     </section>
 
     <section>
-      <h2>Three study-friendly cafe ideas</h2>
-      <div class="cards">
+      <h2>Compare Study-Friendly Cafés</h2>
+      <div class="grid">
         <article class="card">
-          <h3>Maple &amp; Main Coffee</h3>
-          <p class="tag">Best for long study sessions</p>
-          <p>This imagined neighborhood cafe has large tables, cushioned chairs, and warm lighting. It is designed for students who want to settle in with a laptop and several hours of coursework.</p>
-          <p><strong>Study style:</strong> Solo assignments and extended reading.</p>
-          <p><strong>Fictional drink price:</strong> $3–$6.</p>
+          <h3>Maple &amp; Mug Café</h3>
+          <span class="tag">Best all-around</span>
+          <p>A fictional neighborhood café with mixed seating, warm lighting, and a relaxed atmosphere suited to everyday coursework.</p>
+          <p><strong>Study setup:</strong> Small tables and a shared worktable.</p>
+          <p><strong>Example menu price:</strong> $3.50–$6.50.</p>
+          <p><strong>Best for:</strong> Reading, writing, and independent assignments.</p>
         </article>
         <article class="card">
-          <h3>Juniper Cup</h3>
-          <p class="tag">Best for small groups</p>
-          <p>This fictional cafe features shared tables and flexible seating that suits classmates reviewing notes or planning a group presentation together.</p>
-          <p><strong>Study style:</strong> Group projects and collaborative work.</p>
-          <p><strong>Fictional drink price:</strong> $3–$7.</p>
+          <h3>Campus Corner Coffee</h3>
+          <span class="tag">Best for groups</span>
+          <p>A fictional student-oriented café concept with larger tables and flexible seating for classmates working together.</p>
+          <p><strong>Study setup:</strong> Group tables and movable chairs.</p>
+          <p><strong>Example menu price:</strong> $3.00–$6.00.</p>
+          <p><strong>Best for:</strong> Group projects and shared notes.</p>
         </article>
         <article class="card">
-          <h3>Elm Street Coffee Room</h3>
-          <p class="tag">Best for a change of scenery</p>
-          <p>Imagine a bright cafe with window seats, small tables, and a relaxed atmosphere for switching up your usual campus routine.</p>
-          <p><strong>Study style:</strong> Reading, reviewing flashcards, and short work sessions.</p>
-          <p><strong>Fictional drink price:</strong> $2–$6.</p>
+          <h3>Willow Window Coffee</h3>
+          <span class="tag">Best for long sessions</span>
+          <p>A fictional café concept with cushioned seats, natural light, and a slower-paced environment for longer study blocks.</p>
+          <p><strong>Study setup:</strong> Window seating and two-person tables.</p>
+          <p><strong>Example menu price:</strong> $3.50–$7.00.</p>
+          <p><strong>Best for:</strong> Extended reading and assignment planning.</p>
         </article>
       </div>
     </section>
 
     <section>
-      <h2>How to choose the right study cafe</h2>
-      <p>Before choosing a spot, think about how long you plan to stay, whether you need to talk with classmates, and how much space your work requires. A shared table may be ideal for a group assignment, while a smaller seat may work better for reading.</p>
-      <div class="tip">
-        <strong>Student tip:</strong> For a laptop-heavy study session, check Wi-Fi availability and the location of electrical outlets. For focused reading, prioritize comfortable seating and a noise level you can tolerate.
-      </div>
-      <p>Need to work online or charge your laptop? Visit our <a href="wifi-outlets.html">guide to fictional cafes with Wi-Fi and outlets</a>. Prefer a calmer environment? Explore our <a href="quiet-cafes.html">quiet cafe guide</a>.</p>
+      <h2>What Makes a Café Good for Studying?</h2>
+      <p>Look for seating that fits the amount of time you plan to spend, enough table space for your laptop and notes, and an atmosphere that matches your concentration needs. Prices also matter if you plan to buy a drink each time you study away from home.</p>
+      <p>For technology needs, visit our guide to <a href="wifi-and-outlets.html">Iowa City coffee shops with Wi-Fi and outlets</a>. If distractions are your biggest concern, explore our guide to <a href="quiet-coffee-shops.html">quiet coffee shops in Iowa City</a>.</p>
+      <p><strong>Important:</strong> All businesses, descriptions, and prices listed here are invented for an educational project. They do not represent verified local businesses or current menus.</p>
     </section>
   </main>
 
   <footer>
-    <p><strong>Iowa City Cafe Finder</strong> | Helping students plan their next study session</p>
-    <p><a href="index.html">Home</a> · <a href="study-coffee-shops.html">Best Study Cafes</a> · <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a> · <a href="quiet-cafes.html">Quiet Cafes</a></p>
-    <div class="notice"><p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p></div>
+    <p>Study Sip | A student-focused café discovery project</p>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
   </footer>
 </body>
 </html>
