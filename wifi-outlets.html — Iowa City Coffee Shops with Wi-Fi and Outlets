@@ -4,93 +4,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Compare fictional Iowa City coffee shops with Wi-Fi and outlets for laptop work, online classes, and student assignments.">
-  <title>Iowa City Coffee Shops with Wi-Fi and Outlets | Cafe Finder</title>
+  <meta name="description" content="Explore fictional Iowa City cafe profiles focused on Wi-Fi, laptop-friendly seating, and charging outlets.">
+  <title>Iowa City Coffee Shops with Wi-Fi and Outlets | Study Sip</title>
   <style>
-    :root { --coffee:#553b2b; --cream:#fbf6ed; --tan:#e8d7c3; --green:#496653; --text:#302820; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Arial,sans-serif; background:var(--cream); color:var(--text); line-height:1.7; }
-    .notice { background:#f1e5d5; padding:12px 6%; font-size:.85rem; text-align:center; }
-    header { background:var(--coffee); color:white; padding:25px 6%; }
-    .brand { font-size:1.7rem; font-weight:bold; }
-    nav { display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:15px; }
-    nav a { color:white; text-decoration:none; font-weight:bold; }
-    nav a:hover, nav a:focus { text-decoration:underline; }
-    main { max-width:1000px; margin:auto; padding:32px 6%; }
-    h1,h2,h3 { color:var(--coffee); line-height:1.3; }
-    .intro { background:var(--tan); padding:28px; border-radius:14px; margin-bottom:25px; }
-    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:18px; }
-    .card { background:white; border:1px solid var(--tan); border-radius:12px; padding:22px; }
-    .tag { color:var(--green); font-weight:bold; }
-    .tip { border-left:4px solid var(--green); padding:12px 18px; background:white; margin:25px 0; }
-    footer { background:var(--coffee); color:white; text-align:center; padding:24px 6%; margin-top:35px; overflow-wrap:anywhere; }
-    footer a { color:white; }
-    footer .notice { background:transparent; padding:12px 0 0; }
-    footer .notice p { margin-bottom:0; }
-    @media(max-width:500px) { .intro { padding:22px 18px; } nav { gap:10px 16px; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #302820; background: #faf7f2; }
+    .notice { background: #eee5d8; padding: 12px 5%; font-size: 13px; text-align: center; }
+    header { background: #493629; color: white; padding: 22px 5%; }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin: 4px 0 0; color: #f0dfcb; }
+    nav { background: #e7d7c3; padding: 12px 5%; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+    nav a { color: #493629; font-weight: bold; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 1000px; margin: auto; padding: 32px 20px; }
+    h2, h3 { color: #65452f; }
+    .intro { background: #efe2d1; padding: 25px; border-radius: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin: 22px 0; }
+    .card { background: white; border: 1px solid #e5d8c9; border-radius: 10px; padding: 20px; }
+    .card h3 { margin-top: 0; }
+    .tag { display: inline-block; background: #eee5d8; padding: 4px 9px; border-radius: 12px; font-size: 13px; }
+    a { color: #65452f; }
+    footer { background: #493629; color: white; text-align: center; padding: 20px 5%; font-size: 13px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 25px; }
+      nav { gap: 10px 16px; }
+      main { padding: 22px 15px; }
+    }
   </style>
 </head>
 <body>
   <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 
   <header>
-    <div class="brand">Iowa City Cafe Finder</div>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="study-coffee-shops.html">Best Study Cafes</a>
-      <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a>
-      <a href="quiet-cafes.html">Quiet Cafes</a>
-    </nav>
+    <h1>Study Sip</h1>
+    <p>Your guide to finding a great Iowa City study café.</p>
   </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="best-study-coffee-shops.html">Best Study Cafés</a>
+    <a href="wifi-and-outlets.html">Wi-Fi &amp; Outlets</a>
+    <a href="quiet-coffee-shops.html">Quiet Cafés</a>
+  </nav>
 
   <main>
     <section class="intro">
-      <p class="tag">LAPTOP-FRIENDLY STUDYING</p>
-      <h1>Iowa City Coffee Shops with Wi-Fi and Outlets</h1>
-      <p>When an assignment requires online research, a video meeting, or hours of laptop work, Wi-Fi and accessible electrical outlets can make a big difference. This guide explores fictional cafe concepts designed around connected studying.</p>
+      <h2>Iowa City Coffee Shops with Wi-Fi and Outlets</h2>
+      <p>When you study on a laptop, a comfortable table is only part of the equation. Internet access and a place to charge your devices can make a big difference during a long assignment. These fictional café profiles demonstrate the features students might compare when searching for a connected study space.</p>
     </section>
 
     <section>
-      <h2>Compare laptop-friendly cafe concepts</h2>
-      <div class="cards">
+      <h2>Compare Laptop-Friendly Spaces</h2>
+      <div class="grid">
         <article class="card">
-          <h3>Maple &amp; Main Coffee</h3>
-          <p class="tag">Room to spread out</p>
-          <p>The imagined larger tables give students room for a laptop, notebook, charger, and textbook without crowding their workspace.</p>
-          <p><strong>Fictional amenities:</strong> Guest Wi-Fi, wall outlets near selected tables, and spacious seating.</p>
-          <p><strong>Best for:</strong> Writing papers and working through online assignments.</p>
+          <h3>Maple &amp; Mug Café</h3>
+          <span class="tag">Laptop-friendly tables</span>
+          <p>This fictional café offers a mix of individual tables and shared work surfaces for students who need room for a laptop and notebook.</p>
+          <p><strong>Wi-Fi:</strong> Available in this fictional profile.</p>
+          <p><strong>Outlets:</strong> Some tables are described as having nearby outlets.</p>
+          <p><strong>Best for:</strong> Online coursework and writing assignments.</p>
         </article>
         <article class="card">
-          <h3>Juniper Cup</h3>
-          <p class="tag">Shared work sessions</p>
-          <p>This fictional cafe concept includes communal tables for students who want to work alongside classmates while staying connected.</p>
-          <p><strong>Fictional amenities:</strong> Guest Wi-Fi, shared tables, and a few charging spots.</p>
-          <p><strong>Best for:</strong> Group presentations and collaborative documents.</p>
+          <h3>Campus Corner Coffee</h3>
+          <span class="tag">Shared workspaces</span>
+          <p>A fictional student café concept with larger tables for organizing class materials, comparing research, and collaborating on projects.</p>
+          <p><strong>Wi-Fi:</strong> Available in this fictional profile.</p>
+          <p><strong>Outlets:</strong> Charging access is described near selected seats.</p>
+          <p><strong>Best for:</strong> Group assignments and laptop-based work.</p>
         </article>
         <article class="card">
-          <h3>Elm Street Coffee Room</h3>
-          <p class="tag">Compact laptop setup</p>
-          <p>A small-table layout gives students a place to open a laptop, check course materials, and complete a shorter task.</p>
-          <p><strong>Fictional amenities:</strong> Guest Wi-Fi, window seating, and limited nearby outlets.</p>
-          <p><strong>Best for:</strong> Email, reading, and quick study breaks.</p>
+          <h3>Willow Window Coffee</h3>
+          <span class="tag">Individual work</span>
+          <p>A fictional café concept featuring window-side seating for students who want to settle in with a laptop and focus on one task at a time.</p>
+          <p><strong>Wi-Fi:</strong> Available in this fictional profile.</p>
+          <p><strong>Outlets:</strong> A limited number of charging spots are described.</p>
+          <p><strong>Best for:</strong> Independent work and online reading.</p>
         </article>
       </div>
     </section>
 
     <section>
-      <h2>What to check before settling in</h2>
-      <p>Look for a stable connection, an outlet within reach, and enough room to work comfortably. If you plan to attend a video call, consider whether the cafe environment will be suitable for speaking aloud.</p>
-      <div class="tip">
-        <strong>Student tip:</strong> Bring your own charger and avoid accessing sensitive accounts over public Wi-Fi unless you are using an appropriate secure connection.
-      </div>
-      <p>Want to compare overall study environments? Read our <a href="study-coffee-shops.html">guide to the best study-friendly cafe concepts</a>, or explore <a href="quiet-cafes.html">quieter coffee shop environments</a>.</p>
+      <h2>What to Check Before You Settle In</h2>
+      <p>Consider whether the table has enough room for your devices, whether a charging outlet is within reach, and whether the internet access suits your planned work. If you expect to stay for several hours, think about comfort and the cost of refreshments, too.</p>
+      <p>For a broader comparison, read our guide to the <a href="best-study-coffee-shops.html">best coffee shops to study in Iowa City</a>. If you need fewer distractions while working online, explore <a href="quiet-coffee-shops.html">quiet coffee shops in Iowa City</a>.</p>
+      <p><strong>Important:</strong> The café names, Wi-Fi descriptions, outlet details, and other information on this page are fictional examples created for an educational project. No real service availability has been verified.</p>
     </section>
   </main>
 
   <footer>
-    <p><strong>Iowa City Cafe Finder</strong> | A guide to laptop-friendly study spaces</p>
-    <p><a href="index.html">Home</a> · <a href="study-coffee-shops.html">Best Study Cafes</a> · <a href="wifi-outlets.html">Wi-Fi &amp; Outlets</a> · <a href="quiet-cafes.html">Quiet Cafes</a></p>
-    <div class="notice"><p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p></div>
+    <p>Study Sip | A student-focused café discovery project</p>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
   </footer>
 </body>
 </html>
