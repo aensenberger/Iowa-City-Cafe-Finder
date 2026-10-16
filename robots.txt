@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://aensenberger.github.io/Iowa-City-Cafe-Finder/sitemap.xml
