@@ -1,0 +1,47 @@
+# A/B Test Plan — Iowa City Cafe Finder
+
+**Commit by:** November 9, 2026 | **Launch by:** November 17, 2026  
+**Planned collection:** November 17–24, 2026
+
+## Test page and single change
+
+**Page:** Homepage (`index.html`). **Element:** Hero image on the right side.
+
+- **A (control):** Current illustration of a steaming coffee cup on books.
+- **B (variant):** A warm, landscape photograph of a cozy coffee-shop study environment, with a student working at a table.
+
+Only the hero image will change. The site name, navigation, headline (“Find your perfect study spot.”), supporting paragraph, buttons, colors, layout, image dimensions, and all other content will stay identical. Version B will have its own URL, a `noindex` tag (and/or canonical pointing to A), and will be excluded from `sitemap.xml`.
+
+## Hypothesis
+
+AI visitors shown B will be more likely than visitors shown A to say they would click “Explore Study Cafes.” A real study-space photograph may help students picture themselves studying in a cafe and make the recommendations feel more relevant than the current symbolic illustration. This is a prediction, not a guaranteed result.
+
+## AI visitors, model, and exact prompt
+
+**Model:** ChatGPT GPT-6. Use the same model selection and settings for all trials; record the displayed model label/version and date of each batch. Do not switch models or settings.
+
+**Persona (same in every trial):** “You are a University of Iowa undergraduate student who lives or studies in Iowa City. You need a coffee shop to study between classes. You value a comfortable atmosphere, reliable Wi-Fi, and access to outlets.”
+
+**Exact prompt (only the assigned screenshot changes):**
+
+“You are acting as the student described in the persona. Review the Iowa City Cafe Finder homepage screenshot below as if you have just arrived. Based only on what you see, would you click ‘Explore Study Cafes’ to look through the cafe recommendations? Answer YES or NO, followed by one sentence explaining your decision. Do not guess about information not shown.
+
+Persona: You are a University of Iowa undergraduate student who lives or studies in Iowa City. You need a coffee shop to study between classes. You value a comfortable atmosphere, reliable Wi-Fi, and access to outlets.
+
+[Show the assigned full-page homepage screenshot here.]”
+
+Use a fresh conversation for every trial, with no earlier conversation history. Show both versions as full-page screenshots in the same way.
+
+## Assignment, outcome, and sample
+
+Run **100 trials: 50 A and 50 B**. Before collecting data, create a list with 50 A and 50 B assignments and shuffle it using a random-number generator; save the order and follow it. Record trial number, version, date, model label/version, exact response, and outcome. The single primary outcome is click intention, coded **YES = 1; NO = 0**. Preserve every output. Mark an uncodeable answer as missing and explain it in the log; do not silently discard or replace it.
+
+Complete all 100 assigned trials by **November 24, 2026**. Do not stop early based on interim results.
+
+## Analysis and decision rule
+
+Report YES counts and percentages for A and B and the percentage-point difference (B minus A). Compare proportions using a two-proportion z-test at the 0.05 significance level. Report the test result and any missing outcomes. The hypothesis is supported only if B has a higher YES percentage and the two-sided p-value is below 0.05; otherwise, report that the test did not provide clear evidence of a difference.
+
+## Limitation and change log
+
+AI visitors are not real customers: their answers do not measure actual clicks or establish how University of Iowa students will behave. Results may depend on the model and persona and may not generalize to people. Record the date and reason for any post-launch change to the page, image, prompt, model, settings, assignment, or schedule. Collect no results before this plan is committed.
