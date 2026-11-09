@@ -8,7 +8,7 @@
 **Page:** Homepage (`index.html`). **Element:** Hero image on the right side.
 
 - **A (control):** Current illustration of a steaming coffee cup on books.
-- **B (variant):** A warm, landscape photograph of a cozy coffee-shop study environment, with a student working at a table.
+- **B (variant):** A warm, landscape photograph of a cozy coffee-shop study environment, featuring a coffee cup, notebook, and study materials on a table, with no people.
 
 Only the hero image will change. The site name, navigation, headline (“Find your perfect study spot.”), supporting paragraph, buttons, colors, layout, image dimensions, and all other content will stay identical. Version B will have its own URL, a `noindex` tag (and/or canonical pointing to A), and will be excluded from `sitemap.xml`.
 
@@ -45,3 +45,4 @@ Report YES counts and percentages for A and B and the percentage-point differenc
 ## Limitation and change log
 
 AI visitors are not real customers: their answers do not measure actual clicks or establish how University of Iowa students will behave. Results may depend on the model and persona and may not generalize to people. Record the date and reason for any post-launch change to the page, image, prompt, model, settings, assignment, or schedule. Collect no results before this plan is committed.
+**November 9, 2026:** Updated the Version B image description to reflect the final photograph. The image features a coffee cup, notebook, and study materials on a table, with no people. The test hypothesis, primary outcome, prompt, and assignment procedure remain unchanged.
