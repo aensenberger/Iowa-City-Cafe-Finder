@@ -24,7 +24,6 @@
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -206,15 +205,17 @@
       height: auto;
       overflow: visible;
     }
-.illustration img {
-  display: block;
-  width: 100%;
-  max-width: 430px;
-  aspect-ratio: 11 / 9;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
+
+    .illustration img {
+      display: block;
+      width: 100%;
+      max-width: 430px;
+      aspect-ratio: 11 / 9;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
     .section {
       max-width: 1160px;
       margin: auto;
@@ -354,7 +355,9 @@
       color: white;
     }
 
-    .feature-copy .button:hover { background: var(--dark-maroon); }
+    .feature-copy .button:hover {
+      background: var(--dark-maroon);
+    }
 
     .closing {
       padding: 65px 28px;
@@ -412,6 +415,7 @@
       }
 
       .hero-actions { justify-content: center; }
+      .illustration svg { max-width: 310px; }
       .illustration img { max-width: 310px; }
       .category-grid { grid-template-columns: 1fr; }
       .category-card { padding: 24px; }
@@ -480,50 +484,10 @@
         </div>
 
         <div class="illustration">
-  <img
-    src="images/cafe-study-photo.jpg"
-    alt="A student studying at a table in a cozy coffee shop"
-  >
-</div>
-            <g fill="none" stroke="#f1d6b4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M180 86 C151 62 193 52 177 27"/>
-              <path d="M218 78 C196 55 236 43 219 18"/>
-              <path d="M253 86 C232 65 270 53 254 34"/>
-              <path d="M91 128 Q74 111 88 96"/>
-              <path d="M337 116 Q360 98 346 79"/>
-              <path d="M100 82 l8 -12 l8 12 l-8 12 Z"/>
-              <path d="M342 156 l6 -10 l6 10 l-6 10 Z"/>
-              <path d="M322 55 l3 -8 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 Z"/>
-              <path d="M75 190 C54 183 51 163 61 150"/>
-              <path d="M369 208 C386 198 390 181 381 169"/>
-            </g>
-
-            <g stroke="#3f1b29" stroke-width="3" stroke-linejoin="round">
-              <path d="M95 265 L310 265 L326 305 L111 305 Z" fill="#d7ad72"/>
-              <path d="M111 231 L322 231 L310 265 L95 265 Z" fill="#a9444f"/>
-              <path d="M111 231 L322 231" fill="none"/>
-              <path d="M111 244 L317 244" fill="none" stroke="#e7c2a0" stroke-width="2"/>
-              <path d="M111 281 L316 281" fill="none" stroke="#f1d6b4" stroke-width="2"/>
-              <path d="M124 305 L329 305 L340 328 L135 328 Z" fill="#fbf5ed"/>
-              <path d="M135 328 L340 328" fill="none"/>
-            </g>
-
-            <g stroke="#3f1b29" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M139 139 L273 139 Q279 139 278 149 L263 226 Q261 241 243 243 L163 243 Q145 241 143 226 L129 149 Q128 139 139 139 Z" fill="#fbf5ed"/>
-              <path d="M278 158 L304 158 Q330 158 323 185 Q318 204 268 203" fill="none" stroke="#fbf5ed" stroke-width="17"/>
-              <path d="M278 158 L304 158 Q330 158 323 185 Q318 204 268 203" fill="none"/>
-              <ellipse cx="203" cy="141" rx="71" ry="12" fill="#d7ad72"/>
-              <ellipse cx="203" cy="141" rx="60" ry="7" fill="#6e382e" stroke="#3f1b29" stroke-width="2"/>
-              <path d="M166 183 Q202 198 240 183" fill="none" stroke="#a9444f" stroke-width="4"/>
-              <path d="M179 207 Q202 216 225 207" fill="none" stroke="#a9444f" stroke-width="3"/>
-            </g>
-
-            <g fill="#f1d6b4" stroke="#3f1b29" stroke-width="2">
-              <path d="M190 161 l8 13 l-15 -3 l-6 14 l-6 -14 l-15 3 l9 -13 l-9 -12 l15 2 l6 -13 l6 13 l15 -2 Z" transform="translate(17 14) scale(.55)"/>
-            </g>
-
-            <path d="M84 337 Q220 346 357 337" fill="none" stroke="#f1d6b4" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+          <img
+            src="cafe-study-photo.jpg"
+            alt="A cozy coffee shop table with coffee and study materials"
+          >
         </div>
       </div>
     </section>
